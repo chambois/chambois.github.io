@@ -15,7 +15,9 @@ under an hour you're amongst it. Want to explore the inner city? Check out the
 bohemian Northern Quarter. Whatever it seems you feel like doing, there seems
 to be the option to do it with relative ease.
 
+<!--
 (peak pictures)
+-->
 
 The weather is reminiscent of my hometown of Melbourne. If you don't like it,
 just wait five minutes. It is a cooler temperament, one survives here without
@@ -24,6 +26,7 @@ much beyond thirty degrees. With a higher rainfall average it's also suited to
 those who don't mind the elements and enjoy sipping a hot coffee, cocoa or tea
 whilst the rain dances. 
 
+<!--
 Daylight
 
 People
@@ -37,3 +40,4 @@ images
   wheel
   trams
   history
+-->
