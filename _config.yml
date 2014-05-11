@@ -1,0 +1,11 @@
+# Site settings
+title: Colourless green ideas 
+email: 
+description: "Impressions, ponderings and notes on journeys near and far"
+baseurl: ""
+url: ""
+username: chambois
+
+# Build settings
+markdown: kramdown
+permalink: pretty
