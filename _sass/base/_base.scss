@@ -11,3 +11,8 @@
 @import "lists";
 @import "tables";
 @import "typography";
+
+
+body {
+  background: $base-background-color;
+}
