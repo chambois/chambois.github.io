@@ -9,11 +9,12 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  color: #222;
+  font-family: Palatino, serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  background-color: #fdfdfd;
+  background-color: #fbfbfb;
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
@@ -28,10 +29,25 @@ a:visited { color: #205caa; }
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-  max-width: 800px;
+  max-width: 680px;
   padding: 0 30px;
   margin: 0 auto;
   zoom: 1;
+}
+
+hr {
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+
+hr:after {
+    content: "~";
+    color: #555;
+    display: inline-block;
+    position: relative; 
+    top: -0.7rem;  
+    font-size: 1.5em;
 }
 
 
