@@ -2,20 +2,11 @@
 layout: default
 ---
 
-<div class="home">
+<section>
+  <p>Hi there! I'm currently re-working the blog to bring you a more super
+  awesome experience, check back soon for a mind-blowing, jaw-dropping
+  ride*.</p>
 
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  <em>* mind-blowing and jaw-dropping factor is subjective and may be
+  influenced by your present state of mind and how bored you might be.</em>
+</section>
