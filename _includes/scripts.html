@@ -1,1 +1,11 @@
-<script async="true" type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $("button").click(function() {
+      $("nav").toggleClass('show');
+      $("#hamburger i").toggleClass('fa-bars');
+      $("#hamburger i").toggleClass('fa-times');
+    });
+  });
+</script>

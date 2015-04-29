@@ -25,15 +25,18 @@ section {
 nav {
   background: $light-gray;
   display: none;
-  //display: flex;
   align-items: center;
-  opacity: 0.9;
+  opacity: 0.95;
 
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+
+  &.show {
+    display: flex;
+  }
 
   ul {
     width: 100%;
